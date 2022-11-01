@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nuevo Producto</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+
+    <form class="p-4">
+        <div class="form-group mt-2">
+            <input 
+                type="text" 
+                id="nombre" 
+                class="form-control" 
+                placeholder="Nombre del Producto"
+                autofocus
+            />
+        </div>
+        <div class="form-group mt-2">
+            <input 
+                type="text" 
+                id="precio" 
+                class="form-control" 
+                placeholder="Precio"
+                autofocus
+            />
+        </div>
+        <div class="form-group mt-2">
+            <input 
+                type="text" 
+                id="descripcion" 
+                class="form-control" 
+                placeholder="Descripcion"
+                autofocus
+            />
+        </div>
+        <button class="btn btn-primary btn-block mt-2">save</button>
+    </form>
+
+</body>
+
+<script src="producto.rendered.js"></script>
+
+</html>
